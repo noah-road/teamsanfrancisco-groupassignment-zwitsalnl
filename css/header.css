@@ -1,1 +1,14 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+
+.main-menu .sub-menu {
+    display: none;
+}
+
+.main-menu li:hover .sub-menu {
+    display: grid;
+}
+
+.main-menu .sub-menu {
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+}
