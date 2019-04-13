@@ -1,1 +1,4 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.inspiration {
+    background: yellowgreen;
+}
