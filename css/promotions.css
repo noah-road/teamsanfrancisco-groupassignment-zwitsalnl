@@ -17,7 +17,7 @@
   margin-bottom: 3rem;
   padding-left: 6rem;
   padding-top: 3rem;
-  
+  margin-right: 4rem;
 }
 .zwitsal-baby-namen{
   color: red;  
@@ -58,7 +58,7 @@
   display: flex;
   margin-top: 1rem;
   padding-top: 4rem;
-  
+  margin-right: 4rem;  
 }
 
 .promotion-photo-2{
@@ -96,6 +96,7 @@
    color: white;
    text-decoration: none;
    font-weight: bold;
-   padding-top: .5rem; 
+   margin-top: 4rem;
+   padding-top: 1rem; 
  
 }
