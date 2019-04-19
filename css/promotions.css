@@ -13,9 +13,10 @@
    justify-content: space-around; 
   }
   .under-promotion-part-one{
-   display: flex; 
-    margin-bottom: 3rem;
-    padding-left: 6rem;
+    display: flex; 
+    margin-bottom: 4rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
   }
   .zwitsal-baby-namen{
     color: red;  
@@ -31,8 +32,8 @@
   }
   .lees-meer{
      display: flex;
-     height: 30px;
-     width: 150px;
+     height: 45px;
+     width: 140px;
      border: 1px solid pink;
      background: #ea5635;
      border-radius: 5px;
@@ -41,24 +42,27 @@
      text-decoration: none;
      font-weight: bold;
      margin-left: 2rem;
-    padding-top: 1rem;
-  }
+     padding-top: 1rem;
+  } 
   .image-1{
-     width: 450px;
+     width: 600px;
      height: 270px;
      padding-left: 8rem;
      border-radius: 10px;
-    margin-right: 5rem;
+     margin-right: 5rem;
   }
   .under-promotion-part-two{
     display: flex;
-    margin-top: 1rem;
+    margin-top: 4rem;
+    padding-right: 10rem; 
+    padding-right: 10rem;
   }
   
   .promotion-photo-2{
-      width: 450px;
-      height: 250px;    
+      width: 600px;
+      height: 270px;    
       padding-left: 8rem;
+      margin-left: 3rem;
       border-radius: 10px;
   }
   .gratis-zwitsal{
@@ -81,8 +85,8 @@
   }
   .kans-button{
      display: flex;
-     height: 30px;
-     width: 150px;
+     height: 45px;
+     width: 140px;
      border: 1px solid pink;
      background: #ea5635;
      border-radius: 5px;
@@ -90,7 +94,8 @@
      color: white;
      text-decoration: none;
      font-weight: bold;
-     padding-top: 1rem; 
-   
+     margin-top: 2rem;
+     margin-bottom: 2rem;
+     padding-top: 1rem;
   }
   
