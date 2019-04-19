@@ -2,7 +2,7 @@
 .footer{
    display: flex; 
    margin-top: 8rem;
-  padding-top: 3rem;
+   padding-top: 3rem;
    flex-direction: column;
    height: 500px;
    width: 100%;
@@ -31,7 +31,6 @@
    flex-direction: column;
    justify-content: space-around;  
 }
-
 .nieuws-brief{
    font-size: 25px;
    color: #ea5635; 
@@ -71,13 +70,13 @@
 .volg-ons{
    font-size: 20px;
    color: #333;
-  padding-right: 2rem;
+   padding-right: 2rem;
 }
 .socials{
    display: flex;
    justify-content: space-around;
    padding-top: 3rem;
-  padding-right: 8rem;
+   padding-right: 8rem;
 }
 .instagram{
    height: 1.5rem;
@@ -117,7 +116,6 @@
    color: #ea5635; 
    padding-bottom: 1rem
 }
-
 .toegangkelijkheid{
    text-decoration: none;
    color: #333;
@@ -145,7 +143,6 @@ button-2 :hover{
 }
 .last-block{
   display: flex;
- 
 }
 .coppy-right{
    padding-left: 6rem;
@@ -170,5 +167,4 @@ button-2 :hover{
     background: blue;
     margin-top: 7rem;
     border-radius: 5px;
-
 }
