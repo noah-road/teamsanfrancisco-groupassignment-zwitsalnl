@@ -1,1 +1,6 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.search-icon{
+    display: flex;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
