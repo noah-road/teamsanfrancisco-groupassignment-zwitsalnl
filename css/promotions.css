@@ -1,101 +1,100 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
 .body{
-    width: 100%;
-    height: 100%;
-  }
-  .promotions{
-     display: flex;  
-     height: 600px;
-     width: 100%;
-     
-  }
-  .under-promotion{
-   justify-content: space-around; 
-  }
-  .under-promotion-part-one{
-    display: flex; 
-    margin-bottom: 4rem;
-    padding-left: 10rem;
-    padding-right: 10rem;
-  }
-  .zwitsal-baby-namen{
-    color: red;  
-    font-family: open sans, sans-serif;
-    padding-left: 2rem;
-  }
-  .perfect-babynamen{
-   font-family: sans-serif; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 3rem;
-    padding-left: 2rem;
-  }
-  .lees-meer{
-     display: flex;
-     height: 45px;
-     width: 140px;
-     border: 1px solid pink;
-     background: #ea5635;
-     border-radius: 5px;
-     justify-content: center;
-     color: white;
-     text-decoration: none;
-     font-weight: bold;
-     margin-left: 2rem;
-     padding-top: 1rem;
-  } 
-  .image-1{
-     width: 600px;
-     height: 270px;
-     padding-left: 8rem;
-     border-radius: 10px;
-     margin-right: 5rem;
-  }
-  .under-promotion-part-two{
-    display: flex;
-    margin-top: 4rem;
-    padding-right: 10rem; 
-    padding-right: 10rem;
-  }
+  width: 100%;
+  height: 100%;
+}
+.promotions{
+   display: flex;  
+   height: 786px;
+   width: 100%;
+   border: 1px solid black;
+}
+.under-promotion{
+ justify-content: space-around; 
+}
+.under-promotion-part-one{
+  display: flex; 
+  margin-bottom: 3rem;
+  padding-left: 6rem;
+  padding-top: 3rem;
+  border: 1px solid green;
+}
+.zwitsal-baby-namen{
+  color: red;  
+  font-family: open sans, sans-serif;
+  padding-left: 2rem;
+}
+.perfect-babynamen{
+ font-family: sans-serif; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 3rem;
+  padding-left: 2rem;
+}
+.lees-meer{
+   display: flex;
+   height: 30px;
+   width: 150px;
+   border: 1px solid pink;
+   background: #ea5635;
+   border-radius: 5px;
+   justify-content: center;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   margin-left: 2rem;
+  padding-top: 1rem;
+}
+.image-1{
+   width: 450px;
+   height: 270px;
+   padding-left: 8rem;
+  padding-top: 2rem;
+   border-radius: 10px;
+   margin-right: 5rem;
+}
+.under-promotion-part-two{
+  display: flex;
+  margin-top: 1rem;
+  padding-top: 4rem;
+  border: 1px solid red;
+}
+
+.promotion-photo-2{
+    width: 450px;
+    height: 250px;    
+    padding-left: 8rem;
+    border-radius: 10px;
+}
+.gratis-zwitsal{
+  display: flex;
+  flex-direction: column;
+  padding-left: 6rem;
+  padding-right: 3rem;
   
-  .promotion-photo-2{
-      width: 600px;
-      height: 270px;    
-      padding-left: 8rem;
-      margin-left: 3rem;
-      border-radius: 10px;
-  }
-  .gratis-zwitsal{
-    display: flex;
-    flex-direction: column;
-    padding-left: 6rem;
-    padding-right: 3rem;
-    
-  }
-  .win{ 
-    color: red;  
-    font-family: open sans, sans-serif;
-  }
-  .p{
-   font-family: sans-serif; 
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    padding-right: 2rem;
-    
-  }
-  .kans-button{
-     display: flex;
-     height: 45px;
-     width: 140px;
-     border: 1px solid pink;
-     background: #ea5635;
-     border-radius: 5px;
-     justify-content: center;
-     color: white;
-     text-decoration: none;
-     font-weight: bold;
-     margin-top: 2rem;
-     margin-bottom: 2rem;
-     padding-top: 1rem;
-  }
+}
+.win{ 
+  color: red;  
+  font-family: open sans, sans-serif;
+}
+.p{
+ font-family: sans-serif; 
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
   
+}
+.kans-button{
+   display: flex;
+   height: 30px;
+   width: 150px;
+   border: 1px solid pink;
+   background: #ea5635;
+   border-radius: 5px;
+   justify-content: center;
+   color: white;
+   text-decoration: none;
+   font-weight: bold;
+   padding-top: 1rem; 
+ 
+}
