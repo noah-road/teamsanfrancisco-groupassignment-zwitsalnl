@@ -13,6 +13,7 @@
    display: flex;
    justify-content: space-around;
    padding-bottom: 10rem;
+   margin-left: 4rem;
    width: 100%;  
 }
 .block-one{
@@ -34,7 +35,7 @@
 .nieuws-brief{
    font-size: 25px;
    color: #ea5635; 
-   padding-bottom: 1rem;
+   padding-bottom: 2rem;
 }
 .two-buttons{
    display: flex;
@@ -97,17 +98,17 @@
 }
 .over-zwitsal{
    display: flex;
-   padding-top: 2rem;  
+   padding-top: 1rem;  
    text-decoration: none;
-  color: #333;
+   color: #333;
 }
 .contact{
-    padding-top: 3rem;
+    padding-top: 2rem;
     text-decoration: none;
     color: #333;
 }
 .sitemap{
-   padding-top: 3rem;
+   padding-top: 2rem;
    text-decoration: none;
    color: #333;
 }
@@ -132,9 +133,10 @@
 }
 .block-four{
    width: 2rem;
-   height: 2rem;  
+   height: 2rem;
+   margin-right: 6rem;  
 }
-button-2 :hover{
+ .button-2 :hover{
   color: white;
   text-decoration: underline overline;
 }
