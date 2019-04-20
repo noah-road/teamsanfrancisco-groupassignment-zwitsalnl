@@ -1,1 +1,175 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.footer{
+   display: flex; 
+   margin-top: 8rem;
+   padding-top: 3rem;
+   flex-direction: column;
+   height: 480px;
+   width: 100%;
+   background: #efefef; 
+   text-decoration: none;
+}
+.all-blocks{
+   display: flex;
+   justify-content: space-around;
+   padding-bottom: 10rem;
+   margin-left: 4rem;
+   width: 100%;  
+}
+.block-one{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around; 
+}
+.block-two{ 
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     color: black;
+}
+.block-three{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;  
+}
+.nieuws-brief{
+   font-size: 25px;
+   color: #ea5635; 
+   padding-bottom: 2rem;
+}
+.two-buttons{
+   display: flex;
+   border: 1px solid gray;
+   text-align: center;
+   height: 50px;
+   border-radius: 4px;
+   
+   
+  
+}
+.button-1 {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 17rem;
+   text-align: left;
+   padding-left: 1rem; 
+   font-size: 22px;
+   background: white;
+   color: gray;
+   border-radius: 4px;
+}
+.button-2{
+   display: flex;  
+   width: 8rem;   
+   justify-content: center;
+   background: #ea5635;
+   color: white;
+   font-size: 25px;
+   text-decoration: none;
+   padding-top: 0.5rem;
+   border-radius: 4px;
+}
+
+.volg-ons{
+   font-size: 20px;
+   color: #333;
+   padding-right: 2rem;
+}
+.socials{
+   display: flex;
+   justify-content: space-around;
+   padding-top: 3rem;
+   padding-right: 8rem;
+}
+.instagram{
+   height: 1.5rem;
+   width: 2.5rem;
+   color: #ea5635;
+}
+.facebook{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.youtube{
+   width: 2rem;
+   height: 2rem;
+}
+.klanten-service{
+   font-size: 25px;
+   color: #ea5635;     
+}
+.over-zwitsal{
+   display: flex;
+   padding-top: 1rem;  
+   text-decoration: none;
+   color: #333;
+}
+.contact{
+    padding-top: 2rem;
+    text-decoration: none;
+    color: #333;
+}
+.sitemap{
+   padding-top: 2rem;
+   text-decoration: none;
+   color: #333;
+}
+.legal{
+   font-size: 25px;
+   color: #ea5635; 
+   padding-bottom: 1rem
+}
+.toegangkelijkheid{
+   text-decoration: none;
+   color: #333;
+}
+.privacy{
+   padding-top: 2rem; 
+   text-decoration: none;
+   color: #333;
+}
+.cookie{
+   padding-top: 1rem;
+   text-decoration: none;
+   color: #333;
+}
+.block-four{
+   width: 2rem;
+   height: 2rem;
+   margin-right: 6rem;  
+}
+ .button-2:hover{
+  color: white;
+  text-decoration: underline;
+}
+.instagram:hover{
+  color: wihte;
+}
+.last-block{
+  display: flex;
+}
+.coppy-right{
+   padding-left: 6rem;
+   padding-right: 10rem;
+   margin-right: 3rem;
+   font-size: 12px;
+   padding-bottom: 3rem;
+}
+.about-cookies{
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 2rem;
+}
+.manage-cookies{
+    display: flex;
+    height: 30px;
+    width: 130px;
+    border: 1px solid blue;   
+    font-weight: bold;
+    justify-content: center;
+    color: white; 
+    background: blue;
+    margin-top: 7rem;
+    border-radius: 5px;
+}
