@@ -4,7 +4,7 @@
    margin-top: 8rem;
    padding-top: 3rem;
    flex-direction: column;
-   height: 500px;
+   height: 480px;
    width: 100%;
    background: #efefef; 
    text-decoration: none;
@@ -136,9 +136,8 @@
    height: 2rem;
    margin-right: 6rem;  
 }
- .button-2 :hover{
+ .button-2:hover{
   color: white;
-  text-decoration: underline overline;
 }
 .instagram:hover{
   color: wihte;
