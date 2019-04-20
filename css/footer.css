@@ -40,9 +40,11 @@
 .two-buttons{
    display: flex;
    border: 1px solid gray;
-   border-radius: 12px;
    text-align: center;
    height: 50px;
+   border-radius: 4px;
+   
+   
   
 }
 .button-1 {
@@ -55,6 +57,7 @@
    font-size: 22px;
    background: white;
    color: gray;
+   border-radius: 4px;
 }
 .button-2{
    display: flex;  
@@ -64,8 +67,8 @@
    color: white;
    font-size: 25px;
    text-decoration: none;
-   border-radius: 6px;
    padding-top: 0.5rem;
+   border-radius: 4px;
 }
 
 .volg-ons{
