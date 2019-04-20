@@ -1,1 +1,41 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.box-hero {
+    max-width: 1483px;
+    min-height: 500px; 
+    position: relative;
+    z-index: 1;
+    top: 126px;
+    left: 0;
+
+}
+.sub-hero-box {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    margin: 100px;
+}
+.box-hero .sub-hero-box .head-hero {
+    color: azure;
+    font-size: calc(30px + (90 - 30) * ((100vw - 300px) / (1600 - 300)));
+    text-shadow: 10px 10px 10px rgba(17, 16, 16, 0.5);
+}
+.box-hero .sub-hero-box .head-hero span {
+    display: block;
+    margin-top: 65px;
+}
+/* change anchor to button */
+.button {
+    background-color: rgb(255, 83, 71);
+    border: none;
+    border-radius: 6px;
+    color: white;
+    padding: 12px 15px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.7rem;
+    text-decoration: none;
+  }
+.button:focus,
+.button:hover {
+  background-color:rgba(177, 173, 173, 0.767);
+}
