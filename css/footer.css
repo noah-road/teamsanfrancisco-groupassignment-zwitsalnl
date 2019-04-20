@@ -138,6 +138,7 @@
 }
  .button-2:hover{
   color: white;
+  text-decoration: underline;
 }
 .instagram:hover{
   color: wihte;
