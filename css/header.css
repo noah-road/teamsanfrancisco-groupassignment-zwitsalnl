@@ -58,7 +58,7 @@
     height: .4rem;
     background-color: rgb(255, 115, 0);
     border-radius: 2px;
-    transition: all .5s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 .anchor:hover::after {
     width: 100%;
