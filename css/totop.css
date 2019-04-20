@@ -1,1 +1,12 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+
+.last-button {
+    width: 30px;
+    height: 30px;
+    line-height: 40px;
+    display: block;
+    text-align: center;
+    background-color: red;
+    border-radius: .3rem;
+    margin-top: 3rem;
+}

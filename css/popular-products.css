@@ -1,1 +1,23 @@
 /** Scope your css rules in a specific class to prevent merge conflicts! **/
+.popular-products .content .has-image {
+  text-align: center;
+}
+
+.popular-products .products__container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+.popular-products .product {
+  text-align: center;
+}
+
+.popular-products .product__description {
+  text-align: center;
+}
+
+@media (max-width: 780px) {
+  .popular-products .products__container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
